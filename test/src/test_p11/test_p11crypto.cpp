@@ -20,3 +20,16 @@ TEST(P11SlotTest, ConstructorTest) {
     EXPECT_TRUE(slot.Slots() != nullptr);
     EXPECT_TRUE(slot.SlotNum() != 0);
 }
+
+class P11CryptoTest ::testing::Environment {
+public:
+    ~P11CryptoTest() {}
+
+    void SetUp() override {
+
+    }
+
+    void TearDown() override {
+
+    }
+};
